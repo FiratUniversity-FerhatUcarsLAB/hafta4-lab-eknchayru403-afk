@@ -1,5 +1,5 @@
 /*
- * Ad Soyad: HAYRUNNİSA EKİNCİ
+ * Ad Soyad: HAYRUNNİSA EKİNCİ 
  * Ogrenci No: 240541043
  * Tarih: 31/10/2025
  * Aciklama: GEOMETRİK HESAP SİSTEMİ
