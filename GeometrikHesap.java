@@ -12,11 +12,10 @@ public class GeometrikHesap {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         //Geometrik Hesaplama Yazdırma
-        System.out.println("   GGEOMETRİK HESAPLAYICI   ");
+        System.out.println("   GEOMETRİK HESAPLAYICI   ");
         //Yarıcapı yazdırma
         System.out.println("Dairenin Yarıcapını Giriniz(cm):");
         double yaricap = input.nextDouble();
-        input.close();
 //Hesaplamalar
         //1.Dairenin Alanını Hesaplama
         double daireAlani = pi *yaricap*yaricap;
@@ -37,6 +36,7 @@ public class GeometrikHesap {
         System.out.printf("Dairenin Capı:   %.2f cm\n",daireCapı);
         System.out.printf("Kurenin Hacmi:  %.2f cm^3\n",kureHacmi);
         System.out.printf("Kurenin Yuzey Alani  %.2f cm^2\n",kureYuzeyAlani);
+        input.close();
     }
 }
 
