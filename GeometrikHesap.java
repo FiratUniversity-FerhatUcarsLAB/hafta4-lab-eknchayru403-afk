@@ -4,7 +4,6 @@
  * Tarih: 31/10/2025
  * Aciklama: GEOMETRİK HESAP SİSTEMİ
  */
-import java.util.PrimitiveIterator;
 import java.util.Scanner;
 
 public class GeometrikHesap {
