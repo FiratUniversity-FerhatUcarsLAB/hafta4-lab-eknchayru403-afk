@@ -25,7 +25,7 @@ public class GeometrikHesap {
         //3.Dairenin Capını Hesaplama
         double daireCapı = 2*yaricap;
         //4.Kure Hacmi Hesaplama
-        double kureHacmi = 4.0*3.0*pi*yaricap*yaricap*yaricap;
+        double kureHacmi = 4.0/3.0*pi*yaricap*yaricap*yaricap;
         //5.Kure Yuzey Alani Hesaplama
         double kureYuzeyAlani = 4*pi*yaricap*yaricap;
 
