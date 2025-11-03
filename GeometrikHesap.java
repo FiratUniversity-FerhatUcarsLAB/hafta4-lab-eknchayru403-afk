@@ -36,6 +36,7 @@ public class GeometrikHesap {
         System.out.printf("Dairenin Capı:   %.2f cm\n",daireCapı);
         System.out.printf("Kurenin Hacmi:  %.2f cm^3\n",kureHacmi);
         System.out.printf("Kurenin Yuzey Alani  %.2f cm^2\n",kureYuzeyAlani);
+        //Scanner kapatma
         input.close();
     }
 }
