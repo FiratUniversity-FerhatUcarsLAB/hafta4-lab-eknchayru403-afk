@@ -25,8 +25,7 @@ public class OgrenciBilgi {
 //GPA okutma(ondalıklı sayı)
         System.out.print("Gpa giriniz(0.00-4.00): ");
         double gpa = input.nextDouble();
-//Scanner kapatma
-      
+
         //Basarılı/Basarısız durumunu belırleme
         String durum;
         if (gpa>= 2.00)
@@ -46,6 +45,7 @@ public class OgrenciBilgi {
         System.out.printf("GPA: %.2f\n", gpa);
         //Durum cıktısı
         System.out.println("Durum:" + durum);
+        //Scanner kapatma
         input.close();
     }
 }
